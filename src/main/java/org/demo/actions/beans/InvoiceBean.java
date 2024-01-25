@@ -8,6 +8,16 @@ public class InvoiceBean {
     private Date dateFrom;
     private Date dateTo;
 
+    private Integer importeBruto;
+
+    public Integer getImporteBruto() {
+        return importeBruto;
+    }
+
+    public void setImporteBruto(Integer importeBruto) {
+        this.importeBruto = importeBruto;
+    }
+
     public Date getDateFrom() {
         return dateFrom;
     }

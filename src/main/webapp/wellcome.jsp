@@ -13,5 +13,11 @@
 
     <h1>Resumen de factura: </h1>
 
+     <p>Concepto: <s:property value="#session.subject"/></p>
+      <p>Fecha desde: <s:property value="#session.dateFrom"/></p>
+      <p>Fecha hasta: <s:property value="#session.dateTo"/></p>
+      <p>Importe Bruto: <s:property value="#session.importeBruto"/></p>
+      <p>Importe Total con IVA (21%): <s:property value="#session.importeTotalConIVA"/></p>
+
 </body>
 </html>
